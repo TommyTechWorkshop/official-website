@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>官方网站</title>
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=jcI3Q88g6V99OPBjLryoOqPTtsRdedHA"></script>
+
+    <script>
+      (function(d,t) {
+        var BASE_URL="https://www.tommytech.online";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=BASE_URL+"/packs/js/sdk.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.chatwootSDK.run({
+            websiteToken: 'YQLp1egKhcUi1sXiMMQqj3pu',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script");
+    </script>
   </head>
   <body data-spy="scroll" data-target="#myScrollspy">
     <div id="app"></div>
