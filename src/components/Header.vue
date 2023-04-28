@@ -45,8 +45,7 @@
     <!-- 手机导航 -->
     <div class="header-nav-m container-fuild visible-xs">
       <div class="header-nav-m-logo">
-        <h1>武汉市汤米科技工作室</h1>
-        <!-- <img class="center-block" src="@/assets/img/zs.png" alt="logo"> -->
+        <img class="center-block" src="@/assets/img/zs_black.svg" alt="logo">
       </div>
       <!-- 导航栏 -->
       <div class="header-nav-m-menu text-center">
@@ -85,11 +84,11 @@ export default {
   data() {
     return {
       navIndex: sessionStorage.getItem('navIndex') ? sessionStorage.getItem('navIndex') : 0,
-      menuName: "首页",
+      menuName: "汤米科技工作室",
       menuClass: "glyphicon glyphicon-menu-down",
       navList: [
         {
-          name: "首页",
+          name: "汤米科技工作室",
           path: "/",
           children: []
         },

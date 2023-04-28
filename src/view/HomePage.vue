@@ -375,7 +375,7 @@ export default {
   line-height: 80px;
 }
 #swiper .banner-swiper .swiper-slide-title > h1{
-  font-size: 50px;
+  font-size: 30px;
   margin-top: 12%;
 }
 #swiper .banner-swiper .swiper-slide-title > p{

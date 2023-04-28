@@ -5,13 +5,13 @@
     </div> -->
     <!-- <p class="title">武汉市汤米科技工作室</p> -->
     <p class="address_tel_fax">
-      <span>地址：湖北省武汉市汉阳区晴川大道复地海上海C地块4栋35楼06室</span>
+      <span>地址：湖北省武汉市汉阳区晴川大道复地海上海C地块4栋35楼</span>
       <!-- <span>Tel：888-888-888</span> -->
       <!-- <span>Fax：8888-88888888</span> -->
     </p>
     <p class="email_wx">
       <span>邮箱：hello@tommytech.online</span>
-      <span>公司微信号：memorycancel-tommy</span>
+      <span>微信：memorycancel-tommy</span>
     </p>
     <p class="copy">Copyright &copy; 2023 - 2023 武汉市汤米科技工作室</p>
   </div>
