@@ -5,12 +5,12 @@
     <div class="header-top container-fuild hidden-xs">
       <div class="container">
         <div class="server pull-left">
-          <span class="glyphicon glyphicon-earphone"></span>888-888-888
-          <span class="glyphicon glyphicon-envelope"></span>liyunkun_11@163.com
-          <span class="glyphicon glyphicon-time"></span>7x24小时为您服务
+          <!-- <span class="glyphicon glyphicon-earphone"></span>888-888-888 -->
+          <span class="glyphicon glyphicon-envelope"></span>hello@tommytech.online
+          <span class="glyphicon glyphicon-time"></span>汤米科技7x24小时为您服务
         </div>
         <div class="shejiao pull-right">
-          <span class="glyphicon glyphicon-hand-right"></span>赶快联系我们吧！
+          <span class="glyphicon glyphicon-hand-right"></span>您也可以点击右下角对话图标联系我们！
           <span class="glyphicon glyphicon-hand-left"></span>
         </div>
       </div>
@@ -19,7 +19,7 @@
     <div class="header-nav container hidden-xs">
       <!-- 导航logo -->
       <div class="header-nav-logo">
-        <img src="@/assets/img/logo_black.png">
+        <img src="@/assets/img/zs_black.svg">
       </div>
       <!-- 导航内容 -->
       <ul class="header-nav-wrapper">
@@ -45,7 +45,8 @@
     <!-- 手机导航 -->
     <div class="header-nav-m container-fuild visible-xs">
       <div class="header-nav-m-logo">
-        <img class="center-block" src="@/assets/img/logo_black.png" alt="logo">
+        <h1>武汉市汤米科技工作室</h1>
+        <!-- <img class="center-block" src="@/assets/img/zs.png" alt="logo"> -->
       </div>
       <!-- 导航栏 -->
       <div class="header-nav-m-menu text-center">
@@ -96,13 +97,13 @@ export default {
           name: "软件产品",
           path: "/software",
           children: [
+            // {
+            //   name: "智能小镇管理系统",
+            //   path: "/software/smartTown"
+            // },
             {
-              name: "智能小镇管理系统",
-              path: "/software/smartTown"
-            },
-            {
-              name: "大数据管理系统",
-              path: "/software/bigData"
+              name: "客户关系分销系统",
+              path: "/software/CRM"
             }
           ]
         },
@@ -121,16 +122,16 @@ export default {
           path: "/companyintroduction",
           children: []
         },
-        {
-          name: "工作机会",
-          path: "/jobchance",
-          children: []
-        },
-        {
-          name: "联系我们",
-          path: "/contactus",
-          children: []
-        }
+        // {
+        //   name: "工作机会",
+        //   path: "/jobchance",
+        //   children: []
+        // },
+        // {
+        //   name: "联系我们",
+        //   path: "/contactus",
+        //   children: []
+        // }
       ]
     };
   },
@@ -180,8 +181,8 @@ export default {
 }
 /* 导航栏logo图片 */
 #header .header-nav .header-nav-logo img {
-  width: 95px;
-  height: 45px;
+  width: 180px;
+  height: 95px;
   position: absolute;
   top: 0;
   left: 0;

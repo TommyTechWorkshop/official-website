@@ -7,7 +7,7 @@
             </div>
             <div class="nav container text-center">
                 <a href="#" class="active">公司新闻</a>
-                <a href="#">行业动态</a>
+                <!-- <a href="#">行业动态</a> -->
             </div>
             <ul class="news-container container-fuild">
                 <li v-for="(item,index) in newsList" :key="index" class="wow fadeIn">
@@ -40,40 +40,40 @@ export default {
             newsList:[
                 {
                     id: '001',
-                    title: '世界上第一个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
-                    date: '05-24',
-                    year: '2019'
+                    title: 'chatwoot 上线',
+                    introduce: '汤米科技客户关系分销系统试运营 http://chatwoot.tommytech.online',
+                    date: '04-30',
+                    year: '2023'
                 },{
                     id: '002',
-                    title: '世界上第二个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
-                    date: '05-24',
-                    year: '2019'
+                    title: '公众号上线',
+                    introduce: '汤米科技微信公众号上线',
+                    date: '04-29',
+                    year: '2023'
                 },{
                     id: '003',
-                    title: '世界上第三个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
-                    date: '05-24',
-                    year: '2019'
+                    title: 'chatwoot 正式定制',
+                    introduce: '汤米科技工作室正式基于chatwoot定制化开发CRM系统',
+                    date: '04-14',
+                    year: '2023'
                 },{
                     id: '004',
-                    title: '世界上第四个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
-                    date: '05-24',
-                    year: '2019'
+                    title: 'ICP 备案',
+                    introduce: '汤米科技工作室正式备案 鄂ICP备2023005873号-1',
+                    date: '03-30',
+                    year: '2023'
                 },{
                     id: '005',
-                    title: '世界上第五个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第五份“程序设计流程图”，被珍视为“第一位给计算机',
-                    date: '05-24',
-                    year: '2019'
+                    title: '官网上线',
+                    introduce: '汤米科技工作室官网 https://www.tommytech.online 上线',
+                    date: '03-30',
+                    year: '2023'
                 },{
                     id: '006',
-                    title: '世界上第六个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第五份“程序设计流程图”，被珍视为“第一位给计算机',
-                    date: '05-24',
-                    year: '2019'
+                    title: 'Kick Off',
+                    introduce: '武汉市汤米科技工作室正式成立。',
+                    date: '03-23',
+                    year: '2023'
                 }
             ]
         }

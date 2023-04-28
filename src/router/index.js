@@ -20,7 +20,7 @@ export default new Router({
           name: 'home',
           component: resolve => require(['@/view/HomePage'], resolve),
           meta: {
-            title: '首页'
+            title: '汤米科技用科技重塑商业'
           }
         }, {
           path: '/software',
@@ -32,22 +32,22 @@ export default new Router({
           children: [
             {
               path: '/software',
-              redirect: '/software/smartTown'
+              redirect: 'software/CRM'
             },
+            // {
+            //   path: '/software/smartTown',
+            //   name: 'software',
+            //   component: resolve => require(['@/view/Software_smartTown'], resolve),
+            //   meta: {
+            //     title: '软件产品丨智能小镇管理系统'
+            //   }
+            // },
             {
-              path: '/software/smartTown',
+              path: '/software/CRM',
               name: 'software',
-              component: resolve => require(['@/view/Software_smartTown'], resolve),
+              component: resolve => require(['@/view/Software_CRM'], resolve),
               meta: {
-                title: '软件产品丨智能小镇管理系统'
-              }
-            },
-            {
-              path: '/software/bigData',
-              name: 'software',
-              component: resolve => require(['@/view/Software_bigData'], resolve),
-              meta: {
-                title: '软件产品丨大数据管理系统'
+                title: '软件产品丨客户关系分销系统'
               }
             }
           ]
@@ -72,21 +72,22 @@ export default new Router({
           meta: {
             title: '公司介绍'
           }
-        }, {
-          path: '/jobchance',
-          name: 'jobchance',
-          component: resolve => require(['@/view/JobChance'], resolve),
-          meta: {
-            title: '工作机会'
-          }
-        }, {
-          path: '/contactus',
-          name: 'contactus',
-          component: resolve => require(['@/view/ContactUs'], resolve),
-          meta: {
-            title: '联系我们'
-          }
         },
+        // {
+        //   path: '/jobchance',
+        //   name: 'jobchance',
+        //   component: resolve => require(['@/view/JobChance'], resolve),
+        //   meta: {
+        //     title: '工作机会'
+        //   }
+        // }, {
+        //   path: '/contactus',
+        //   name: 'contactus',
+        //   component: resolve => require(['@/view/ContactUs'], resolve),
+        //   meta: {
+        //     title: '联系我们'
+        //   }
+        // },
         {
           path: '/servicedetail',
           name: 'servicedetail',

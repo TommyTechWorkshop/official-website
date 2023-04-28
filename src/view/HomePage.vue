@@ -21,28 +21,34 @@
         <div class="swiper-button-next"></div>
       </div>
     </div>
-    <!-- 大数据管理系统 -->
+    <!-- 客户关系分销系统 -->
     <div id="bigData" class="container-fuild">
       <div class="row bigData-container">
         <div class="col-xs-12 col-sm-12 col-md-6 wow zoomIn">
-          <img class="img-responsive" src="@/assets/img/img1.png" alt="大数据管理系统">
+          <img class="img-responsive" src="@/assets/img/img1.png" alt="客户关系分销系统">
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6">
           <h2 class="bigData-title">
-            大数据管理系统
-            <small>/ Big Data Management System</small>
+            客户关系分销系统
+            <small>/ Customer Relationship Management (CRM)</small>
           </h2>
-          <p>当今最领先的响应式自助建站平台。无论您是普通互联网用户，还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。想创建一个简单的单页式站点，还是一个专业的公司网站，亦或是一个别具一格的博客？起飞页可以满足您的所有需求。</p>
-          <p>我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，还是专业网站制作人员。</p>
-          <h2 class="bigData-device">PC/PAD/Phone &nbsp; 全设备支持</h2>
-          <a href="#" class="btn btn-lg btn-block btn-info">联系我们</a>
+          <p>汤米科技客户关系分销系统是基于开源软件 chatwoot 定制开发的一套软件。致力于提供出色的客户销售体验，提升售后团队的工作效率并为他们提供全局客户数据。</p>
+          <p>可替代 Intercom、Zendesk 和 Salesforce 等CRM系统。</p>
+
+          <p>您可以将您的帐户与多个对话渠道集成，例如网站实时聊天、电子邮件、短信、邮件、微信等。</p>
+          <p>您可以在一个仪表板上查看来自不同渠道的所有对话。这有助于减少在多个工具之间切换所涉及的时间和摩擦。</p>
+
+          <p>您可以使用汤米科技客户关系分销移动应用程序（适用于 Android 和 iOS）随时随地管理您与客户的对话并与您的团队协作。</p>
+
+          <h2 class="bigData-device">PC/Pad/Phone &nbsp; 全设备支持</h2>
+          <a href="#" class="btn btn-lg btn-block btn-info">点击右下角联系我们</a>
         </div>
       </div>
     </div>
-    <!-- 您身边的IT专家 -->
+    <!-- 您身边的CRM专家 -->
     <div id="contactUs" class="container-fuild text-center">
       <div class="container contactUs-container wow slideInUp">
-        <h1>您身边的IT专家</h1>
+        <h1>您身边的CRM专家</h1>
         <h3>7x24小时提供出色的IT服务</h3>
         <button
           class="btn btn-default btn-sm"
@@ -57,6 +63,7 @@
       </div>
     </div>
     <!-- 客户评价 -->
+    <!--
     <div id="customer" class="container-fuild">
       <div class="container customer-container">
         <p class="customer-title text-center">客户评价</p>
@@ -79,7 +86,6 @@
               <div class="customer-content2">{{item.title}}</div>
             </div>
           </div>
-          <!-- 如果需要导航按钮 -->
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
         </div>
@@ -101,7 +107,7 @@
         </div>
       </div>
     </div>
-    <!-- 为什么选择我们 -->
+    -->
     <div id="whyChooseUs" class="conatiner-fuild">
       <div class="container">
         <div class="whyChooseUs-title text-center">
@@ -145,26 +151,26 @@ export default {
         {
           img: require("@/assets/img/banner1.png"),
           path: "",
-          title: '您身边的IT专家1',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
+          title: '您身边的CRM专家',
+          content: '汤米科技客户关系分销系统是基于开源软件 chatwoot 定制开发的一套软件。致力于提供出色的客户销售体验，提升售后团队的工作效率并为他们提供全局客户数据。',
         },
         {
           img: require("@/assets/img/banner2.jpg"),
           path: "",
-          title: '您身边的IT专家2',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
+          title: '您身边的CRM专家',
+          content: '汤米科技客户关系分销系统可替代 Intercom、Zendesk 和 Salesforce 等CRM系统。',
         },
         {
           img: require("@/assets/img/banner1.png"),
           path: "",
-          title: '您身边的IT专家3',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
+          title: '您身边的CRM专家',
+          content: '您可以将您的帐户与多个对话渠道集成，例如网站实时聊天、电子邮件、短信、邮件、微信等。您可以在一个仪表板上查看来自不同渠道的所有对话。',
         },
         {
           img: require("@/assets/img/banner2.jpg"),
           path: "",
-          title: '您身边的IT专家4',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
+          title: '您身边的CRM专家',
+          content: '您可以使用汤米科技客户关系分销移动应用程序（适用于 Android 和 iOS）随时随地管理您与客户的对话并与您的团队协作。',
         }
       ],
       customerList: [
@@ -377,7 +383,7 @@ export default {
   margin-top: 1%;
   font-weight: 700;
 }
-/* 大数据管理系统 */
+/* 客户关系分销系统 */
 #bigData {
   padding: 100px;
   transition: all ease 0.6s;
@@ -396,7 +402,7 @@ export default {
   margin: 50px 0 20px;
 }
 
-/* 您身边的IT专家 */
+/* 您身边的CRM专家 */
 #contactUs {
   color: #fff;
   height: 400px;
