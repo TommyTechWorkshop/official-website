@@ -152,13 +152,13 @@ export default {
           img: require("@/assets/img/banner1.png"),
           path: "",
           title: '您身边的CRM专家',
-          content: '汤米科技客户关系分销系统是基于开源软件 chatwoot 定制开发的一套软件。致力于提供出色的客户销售体验，提升售后团队的工作效率并为他们提供全局客户数据。',
+          content: '基于开源软件 chatwoot 定制开发的一套软件。致力于提供出色的客户销售体验，提升售后团队的工作效率并为他们提供全局客户数据。',
         },
         {
           img: require("@/assets/img/banner2.jpg"),
           path: "",
           title: '您身边的CRM专家',
-          content: '汤米科技客户关系分销系统可替代 Intercom、Zendesk 和 Salesforce 等CRM系统。',
+          content: '可替代 Intercom、Zendesk 和 Salesforce 等CRM系统。',
         },
         {
           img: require("@/assets/img/banner1.png"),
@@ -170,7 +170,7 @@ export default {
           img: require("@/assets/img/banner2.jpg"),
           path: "",
           title: '您身边的CRM专家',
-          content: '您可以使用汤米科技客户关系分销移动应用程序（适用于 Android 和 iOS）随时随地管理您与客户的对话并与您的团队协作。',
+          content: '使用移动应用程序（适用于 Android 和 iOS）随时随地管理您与客户的对话并与您的团队协作。',
         }
       ],
       customerList: [
