@@ -6,7 +6,7 @@
       <div class="container">
         <div class="server pull-left">
           <!-- <span class="glyphicon glyphicon-earphone"></span>888-888-888 -->
-          <span class="glyphicon glyphicon-envelope"></span>island_zhu@foxmail.com
+          <span class="glyphicon glyphicon-envelope"></span>zhushuang@tommytech.online
           <span class="glyphicon glyphicon-time"></span>汤米科技7x24小时为您服务
           <span class="glyphicon glyphicon-alert"></span>鄂ICP备2023005873号-1
         </div>

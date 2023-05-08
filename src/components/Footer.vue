@@ -10,7 +10,7 @@
       <!-- <span>Fax：8888-88888888</span> -->
     </p>
     <p class="email_wx">
-      <span>邮箱：island_zhu@foxmail.com</span>
+      <span>邮箱：zhushuang@tommytech.online</span>
       <span>微信：memorycancel-tommy</span>
     </p>
     <p class="copy">Copyright &copy; 2023 - 2023 武汉市汤米科技工作室 鄂ICP备2023005873号-1</p>
