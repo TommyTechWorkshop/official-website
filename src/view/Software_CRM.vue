@@ -3,8 +3,7 @@
         <h2>客户关系分销系统</h2>
 
         欢迎试用我们的公有云CRM系统：
-        <a href="http://chatwoot.tommytech.online/">http://chatwoot.tommytech.online/</a>
-
+        <a href="https://crm.tommytech.online">https://crm.tommytech.online</a>
 
         <h2> 功能介绍 </h2>
 
