@@ -12,8 +12,13 @@
     <p class="email_wx">
       <span>邮箱：zhushuang@tommytech.online</span>
       <span>微信：memorycancel-tommy</span>
+      <span>公众号：汤米工坊</span>
     </p>
     <p class="copy">Copyright &copy; 2023 - 2023 武汉市汤米科技工作室 鄂ICP备2023005873号-1</p>
+    <div style="display: flex;justify-content: center;">
+      <img src="@/assets/img/zs_wx.jpeg" style="width:150px;height:150px;float:left;margin: 10px;text-align:center;" alt="引号">
+      <img src="@/assets/img/pub_wx.png" style="width:421px;height:150px;float:left;margin: 10px;text-align:center;" alt="引号">
+    </div>
   </div>
 </template>
 <script>
@@ -40,12 +45,12 @@ export default {
 }
 .title {
   font-size: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 .address_tel_fax {
   color: #d3d3d3;
   font-size: 14px;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 .email_wx {
   color: #d3d3d3;
@@ -54,7 +59,7 @@ export default {
 .copy {
   color: #d3d3d3;
   font-size: 14px;
-  margin: 50px 0 10px;
+  margin: 10px 0 10px;
 }
 @media screen and (max-width: 997px) {
   .title {
@@ -64,13 +69,12 @@ export default {
     font-size: 12px;
   }
   .email_wx {
-
-  font-size: 12px;
-}
-.copy {
-  font-size: 12px;
-  margin: 30px 0 10px;
-}
+    font-size: 12px;
+  }
+  .copy {
+    font-size: 12px;
+    margin: 30px 0 10px;
+  }
 }
 </style>
 
