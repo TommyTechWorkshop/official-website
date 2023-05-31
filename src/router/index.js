@@ -47,7 +47,7 @@ export default new Router({
               name: 'software',
               component: resolve => require(['@/view/Software_CRM'], resolve),
               meta: {
-                title: '软件产品丨客户关系分销系统'
+                title: '软件产品丨汤米CRM/SCRM'
               }
             }
           ]

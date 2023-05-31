@@ -41,7 +41,7 @@ export default {
                 {
                     id: '001',
                     title: 'chatwoot 上线',
-                    introduce: '汤米科技客户关系分销系统试运营 http://chatwoot.tommytech.online',
+                    introduce: '汤米科技汤米CRM/SCRM试运营 https://crm.tommytech.online',
                     date: '04-30',
                     year: '2023'
                 },{

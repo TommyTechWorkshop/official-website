@@ -24,7 +24,7 @@ export default {
             softwareList: [
                 {
                     path: '/software/CRM',
-                    name: '客户关系分销系统'
+                    name: '汤米CRM/SCRM'
                 }
             ]
         }

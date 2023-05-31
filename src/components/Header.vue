@@ -102,7 +102,7 @@ export default {
             //   path: "/software/smartTown"
             // },
             {
-              name: "客户关系分销系统",
+              name: "汤米CRM/SCRM",
               path: "/software/CRM"
             }
           ]

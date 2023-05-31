@@ -21,18 +21,18 @@
         <div class="swiper-button-next"></div>
       </div>
     </div>
-    <!-- 客户关系分销系统 -->
+    <!-- 汤米CRM/SCRM -->
     <div id="bigData" class="container-fuild">
       <div class="row bigData-container">
         <div class="col-xs-12 col-sm-12 col-md-6 wow zoomIn">
-          <img class="img-responsive" src="@/assets/img/img1.png" alt="客户关系分销系统">
+          <img class="img-responsive" src="@/assets/img/img1.png" alt="汤米CRM/SCRM">
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6">
           <h2 class="bigData-title">
-            客户关系分销系统
+            汤米CRM/SCRM
             <small>/ Customer Relationship Management (CRM)</small>
           </h2>
-          <p>汤米科技客户关系分销系统是基于开源软件 chatwoot 定制开发的一套软件。致力于提供出色的客户销售体验，提升销售团队的工作效率并为他们提供全局客户数据。</p>
+          <p>汤米科技汤米CRM/SCRM是基于开源软件 chatwoot 定制开发的一套软件。致力于提供出色的客户销售体验，提升销售团队的工作效率并为他们提供全局客户数据。</p>
           <p>可替代 Intercom、Zendesk 和 Salesforce 等CRM系统。</p>
 
           <p>您可以将您的帐户与多个对话渠道集成，例如网站实时聊天、电子邮件、短信、微信等。</p>
@@ -383,7 +383,7 @@ export default {
   margin-top: 1%;
   font-weight: 700;
 }
-/* 客户关系分销系统 */
+/* 汤米CRM/SCRM */
 #bigData {
   padding: 100px;
   transition: all ease 0.6s;
